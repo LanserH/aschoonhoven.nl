@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    /*padding: 0;*/
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0rem;
+    /*background-color: whitesmoke;*/
+    color: black;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Muli;
+    line-height: 1.6;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+.styleImgList{ 
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+}
+.contactFooter {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    
+}
+.contactFooter h2{
+    color: #88F355;
+    display: inline;
+    margin-left: 2rem;
+}
+span.inlineSpan {
+    margin: 0 auto;
+    display: inline;
+    width: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.inlineSpan a{
+    
+    color: white;
+    border-bottom: 0;
+    font-weight: 600;
+}
+.inlineSpan a:hover,
+.inlineSpan a:focus{
+    outline: 3px solid white;
+    background-color: black;
+    color: white;
+}
+.inlineSpanIcon img{
+    display: inline;
+    width: 20%;
+    align-items: center;
+}
+span.inlineSpanIcon {
+    margin: 0 auto;
+    display: inline;
+    width: 100%;
+    padding-right: 10px;
+    font-size: larger;
+    color: #88F355;
+    /*margin-left: 0.5rem;
+    margin-right: 0.5rem;*/
+}
+.inlineSpanIcon a {
+    text-decoration: none;
+    
+}
+
+.inlineSpanIcon img:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid #FFF;
+}
+.inlineSpanIcon a:focus {
+    color: white;
+    background-color: black;
+    outline: 3px solid #FFF;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+clear: both;
+}
+.row {
+margin: 0 auto;
+
+}
+
+.classRow {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+}
+.classRow2 {
+    width: 80%;
+    /*display: table;*/
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+.classRow3 {
+    width: 80%;
+    /*display: table;*/
+    margin: 0 auto;
+    margin-top: 2rem;
+    /*padding-top: 2rem;*/
+    padding-bottom: 2rem;
+}
+
+.column1 {
+    /*float: left;*/
+    width: 55%;
+    padding: 15px;
+    display: table-cell;
+    background-color: white;
+    /*height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+    /*float: left;*/
+    width: 45%;
+    padding: 15px;
+    display: table-cell;
+    position: relative;
+    background-color: #111e55;
+    color: white;
+    /*height: 300px; /* Should be removed. Only for demonstration */
+}
+.column2 h2, .column1 h2 {
+    /*margin-top: 1rem;*/
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+}
+
+.column3 {
+    /*float: left;*/
+    width: 45%;
+    padding: 15px;
+    display: table-cell;
+    position: relative;
+    background-color: #111e55;
+    color: white;
+    /*height: 300px; /* Should be removed. Only for demonstration */
+}
+.column3 h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: #88F355;
+}
+.column3 ul {
+    list-style: none;
+    padding: 0px;
+}
+.column3 li {
+    margin: 2rem;
+}
+.column3 a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /*display: flex;*/
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    color: white;
+    border-bottom: 0;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: larger;
+}
+.column3 a:hover,
+.column3 a:focus {
+    outline: 3px solid white;
+    background-color: black;
+    color: white;
+}
+.column4 {
+    padding: 10px;
+    float: left;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+.column5 {
+    padding: 10px;
+    float: left;
+    width: 30%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1, .column2, .column3, .column4, .column5, .row, .classRow2 {
+      width: 100%;
+      display: block;
+      padding: 0px;
+      /*padding-top: 1rem;*/
+      
+    }
+    .inlineSpan img {
+        /*margin-left: 2rem;*/
+        padding-top: 2rem;
+    }
+    .contactFooter h2{
+        margin-left: 0px;
+    }
+    .column3 h2{
+        margin-left: 2rem;
+        
+    }
+    .column4 h2{
+        /*margin-left: 2rem;*/
+        font-size: large;
+        padding: 0px;
+    }
+    .column3 ul{
+        padding: 0px;
+    }
+    .styleImgList{ 
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .column1, .column2, .column3, .column4, .column5, .row {
+      width: 100%;
+      display: block;
+      padding: 0px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .centerButtonColumn{
+        position: static;
+    }
+    .inlineSpan img {
+        /*margin-left: 2rem;*/
+        padding-top: 2rem;
+    }
+    .contactFooter h2{
+        margin-left: 0px;
+    }
+    .column3 h2{
+        margin-left: 2rem;
+        
+    }
+    .column4 h2{
+        /*margin-left: 2rem;*/
+        font-size: large;
+        padding: 0px;
+    }
+    .column3 ul{
+        padding: 0px;
+    }
+    
+  }
+
+
+

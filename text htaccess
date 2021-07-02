@@ -1,0 +1,33 @@
+RewriteEngine On
+#RewriteRule ^([^/]*)\.html$ :8888/LanserDev/index.php?page=$1 [L]
+
+
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule ^/([0-9]+)/([0-9a-zA-Z_-]+) index.php?page=$1 [NC]
+
+#RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
+
+#Test of het onderstaande werkt
+#RewriteRule ^([^/]*)/?$ index.php?page=$1 [L,NC] 
+
+#RewriteRule ^([a-z]+)\.html$ /index.php?page=$1 [R,L] 
+
+
+#RewriteRule ^([^/]*)/?$ index.php?page=$1 [L,NC] 
+
+#Het onderstaande werkt met de rewrite RewriteCond en daaronder. 
+#RewriteRule ^([^/]*)$ /index.php?page=$1 [QSA,L]
+
+#RewriteRule ^LanserDev/(.*)$ index.php?page=$1 [L]
+
+# Het onderstaande werkt, maar niet de ?page erbij? 
+# Hoe kan dat?
+
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index\.php\.?\.page= [NC] 
+#RewriteRule ^ %1 [R=301,L]
+
+
+#https://stackoverflow.com/questions/30967486/remove-page-in-url-when-opening-pages
+#https://stackoverflow.com/questions/18167673/htaccess-remove-index-phppage

@@ -1,0 +1,269 @@
+
+
+.textOnBanner {
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    bottom: 20px;
+    width: 75%;
+    height: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    /*max-width: 1200px;*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+}
+.textOnBanner h2 {
+    color: #111e55;
+    font-size: calc(1.675rem + .54054vw - 1.72973px);
+    font-weight: 900;
+}
+.textOnBanner p {
+    color: #111e55;
+    /*font-size: 1.1rem;*/
+    font-size: 18px
+}
+
+.contactBanner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.contactBanner img{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.cssContactForm {
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*width: 90%;*/
+    /*text-align: center;*/
+    display: block;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.headerCssContactForm {
+    color: #111e55;
+    font-size: 1.6875rem;
+    font-weight: 700;
+    word-break: break-all;
+}
+.cssContactForm a {
+    text-align: left;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.styleFormContactDiv {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    display: table;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid black;
+    /*text-align: center;*/
+    /*border-top: 1px solid black;
+    padding-top: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+    /*padding-top: 2rem;*/
+    /*background-color: whitesmoke;*/
+}
+.textAreaContact {
+    min-width: 100%;
+    min-height: 150px;
+    max-width: 100%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem; 
+    border: 1px solid black;
+}
+
+.formLabelContact {
+    /*font-size: 20px; */
+    font-size: 1.1rem;
+    /*margin-top: 1rem;*/
+    max-width: 100%;
+    text-align: left;
+    color: #111e55;
+    font-weight: bold;
+}
+.contactFormDiv {
+    margin-top: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.contactFormDiv h2 {
+    color: #111e55;
+    font-size: 2.2rem;
+    font-weight: 800;
+    /*word-break: break-all;*/
+}
+.contactFormDiv {
+    color: #111e55;
+    font-size: 18px;
+}
+
+.rowContact {
+    margin: 0 auto;
+
+}
+.columnContact1 {
+    
+    margin: 0 auto;
+    
+}
+.columnContact2 {
+    margin: 0 auto;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnContact1 {
+    float: left;
+    width: 35%;
+    padding: 0px;
+    padding-top: 2rem;
+    /*text-align: right;*/
+    word-break: break-all;
+  }
+  
+  .columnContact2 {
+    float: left;
+    width: 65%;
+    padding: 0px;
+    padding-top: 2rem;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnContact2, .columnContact1 {
+      width: 100%;
+    }
+    .contactFormDiv {
+        width: 90%;
+        text-align: left;
+    }
+    .columnContact2 {
+        padding-top: 0px;
+    }
+    .columnContact1 {
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .cssContactForm {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .styleFormContactDiv {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rems;
+    }
+    .textOnBanner {
+        width: 100%;
+        background-color: white;
+        color: black;
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+       
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+    .columnContact2, .columnContact1 {
+      width: 100%;
+    }
+    .contactFormDiv {
+        width: 90%;
+        text-align: left;
+    }
+    .columnContact2 {
+        padding-top: 0px;
+    }
+    .columnContact1 {
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .cssContactForm {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .styleFormContactDiv {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rems;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .columnContact2, .columnContact1 {
+      width: 100%;
+    }
+    .contactFormDiv {
+        width: 90%;
+        text-align: left;
+    }
+    .columnContact2 {
+        padding-top: 0px;
+    }
+    .columnContact1 {
+        float: left;
+        padding-top: 0rem;
+        text-align: left;
+    }
+    .cssContactForm {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }   
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .textOnBanner {
+        width: 100%;
+        background-color: white;
+        color: black;
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+       
+    }
+}

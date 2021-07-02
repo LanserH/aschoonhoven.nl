@@ -1,0 +1,132 @@
+
+
+.centered {
+	margin: 0 auto;
+	padding: 0 var(--ck-sample-base-spacing);
+}
+
+/* --------- HEADER ---------------------------------------------------------------------------- */
+
+.centered {
+	display: block;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 8em;
+	padding-top: 1rem;
+	
+}
+
+
+
+/* --------- ------------------------------------------------------------------------------- */
+
+
+#editor {
+	
+	box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+	border: 1px solid #DFE4E6;			
+	border-bottom-color: #cdd0d2;
+	border-right-color: #cdd0d2;
+
+}
+
+.ck.ck-editor__editable_inline[dir=ltr] h2, h3, h4{
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+blockquote {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.ck-content blockquote{
+	overflow:hidden;
+	padding-right:1.5em;
+	padding-left:1.5em;
+	margin-left:5%;
+	margin-right:0;
+	font-style:italic;
+	border-left:10px solid #ccc;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.ck-content[dir=rtl] blockquote{
+	border-left:0;
+	border-right:5px solid #ccc;
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+}
+
+.ck.ck-editor {
+	box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+	border: 1px solid black;
+}
+.ck.ck-content {
+	font-size: 1em;
+	line-height: 1.6em;
+	margin-bottom: 0.8em;
+	min-height: 200px;
+	padding: 1.5em 2em;
+}
+
+/* --------- / DOCUMENT EDITOR --------------------------------------------------------------- */
+
+.document-editor {
+	border: 1px solid #DFE4E6;
+	border-bottom-color: #cdd0d2;
+	border-right-color: #cdd0d2;
+	border-radius: 2px;
+	max-height: 700px;
+	display: flex;
+	flex-flow: column nowrap;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+}
+
+.toolbar-container {
+	z-index: 1;
+	position: relative;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.05);
+}
+
+.toolbar-container .ck.ck-toolbar {
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
+}
+
+.content-container #editor {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+	width: 15.8cm;
+	min-height: 21cm;
+	padding: 1cm 1cm 2cm;
+	margin: 0 auto;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.05);
+}
+
+/* --------- FOOTER ------------------------------------------------------------------------------- */
+
+
+/* --------- RWD ------------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+	.centered {
+		padding-top: var(--ck-sample-base-spacing);
+		padding-bottom: var(--ck-sample-base-spacing);
+		flex-flow: column nowrap;
+		align-items: stretch;
+		min-height: unset;
+	}
+}
+
+@media (max-width: 600px) {
+	.centered {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	
+}

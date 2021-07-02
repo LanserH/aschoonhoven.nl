@@ -1,0 +1,21 @@
+
+.listbox {
+    height: 50px;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.listbox {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1151px) {
+    .listbox {
+        width: 95%;
+    }
+}

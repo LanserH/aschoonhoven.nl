@@ -1,0 +1,153 @@
+header {
+  width: 100%;
+  background-color: #343a40;
+}
+footer {
+  width: 100%;
+  background-color: black;
+  margin-top: 1rem;
+}
+.divFooter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-color: #111e55; */
+  color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  padding: 0.5rem;
+}
+.menuFooter{
+  display: contents;
+  flex-direction: row;
+  background-color: #343a40;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menuItemFooter {
+  position: relative;
+  z-index: 1;
+}
+.menuLinkFooter{
+  display: block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 1rem 2rem;
+}
+.aboveFooter1 {
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+}
+
+main {
+  width: 100%;
+  /*min-height: 100vh;*/
+  margin: 0 auto;
+  word-break: normal;
+  /*padding: 0 1rem;*/
+}
+
+nav {
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+nav > ul {
+  display: none;
+  flex-direction: column;
+}
+nav > ul.show {
+  display: flex;
+  width: 100%;
+}
+
+nav > button {
+  display: block;
+  border: 1px solid white;
+  background-color: #343a40;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  margin-left: auto;
+  width: 100%;
+}
+nav > button:hover,
+nav > button:focus {
+  outline: 0.2rem solid #00CA00;
+
+}
+nav ul {
+  list-style: none;
+  background-color: #343a40;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+nav ul.dropdown {
+  display: none;
+  flex-direction: column;
+  border: 1px solid white;
+}
+nav ul.dropdown.show {
+  display: flex;
+  z-index: 1;
+}
+nav ul li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+nav ul li.dropdown > a::after {
+  content: "▼";
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+nav ul li a {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:focus {
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  nav {
+      width: 95%;
+  }
+}
+@media screen and (min-width: 1070px) {
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1070px) {
+  nav > button {
+    display: none;
+  }
+}
+@media screen and (min-width: 1070px) {
+  nav ul.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  nav ul.dropdown ul {
+    top: 0;
+    left: 100%;
+  }
+}

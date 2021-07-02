@@ -1,0 +1,544 @@
+.styleFormButton{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.spanToelichtingLabel {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+.spanOfForm {
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+}
+.alternatieveTekst {
+    margin: 0 auto;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+.outputImage {
+    border: 1px solid black;
+    width: 60%; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.classOutputImage {
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 100%;*/
+  }
+.textAreaInput {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100px;
+    min-height: 300px;
+    /*max-height: 100px;*/
+    font-size: 18px;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    /*margin-top: 1rem;*/
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    /*font-size: 1rem;*/
+}
+.textAreaInput:hover,
+.textAreaInput:focus {
+    outline: 1px solid  #111e55;
+}
+#errorContact {
+    margin-top: 1rem;
+    width: 60%;
+}
+.errorContact {
+    color: #A32F20;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.errorContact a {
+    color:#A32F20;
+    font-weight: bold;
+}
+.errorContact a{
+    text-decoration: none;
+}
+.errorContactList{
+    color: #A32F20;
+    font-weight: bold;
+    padding-top: 1rem;
+    display: flex;
+    /*width: 60%;*/
+    margin: 0 auto;
+    /*padding-bottom: 2rem;*/
+}
+.errorContactList a{
+    color:#A32F20;
+    font-weight: bold;
+}
+#melding {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-top: 2rem;*/
+    font-size: 2rem;
+    color: #FF0000;
+}
+#error {
+    margin-top: 2rem;
+}
+.error {
+    color: #FF0000;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.error a {
+    color: #FF0000;
+    font-weight: bold;
+}
+.error a{
+    text-decoration: none;
+}
+.errorList{
+    color: #FF0000;
+    font-weight: bold;
+    padding-top: 1rem;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.errorList a{
+    color: #FF0000;
+    font-weight: bold;
+}
+.styleFormDiv {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-top: 2rem;*/
+    /*background-color: whitesmoke;*/
+}
+.styleFormDivArtikel {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    /* padding-top: 2rem; */
+    /* background-color: whitesmoke; */
+    border-top: 1px solid black;
+    padding-top: 3rem;
+}
+
+.styleFormDivArtikel2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #94B5DB;
+    /*padding-top: 2rem;*/
+    /*background-color: whitesmoke;*/
+}
+label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+.formCss {
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 90%;
+    /*text-align: center;*/
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 6rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+
+}
+.formCssArtikel {
+    margin: 0 auto;
+    /*padding-left: 10%;
+    padding-right: 10%;*/
+    width: 90%;
+    /*text-align: center;*/
+    display: block;
+    /*background-color: whitesmoke;*/
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+.formCssArtikel h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #111e55;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.formCssArtikel h3, h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #111e55;
+    font-size: 1.6875rem;
+    font-weight: 700;
+}
+.formCssArtikel blockquote {
+    overflow: hidden;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-left: 5%;
+    margin-right: 0;
+    font-style: italic;
+    border-left: 10px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.formCssArtikel2 {
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    /*text-align: center;*/
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /*margin-bottom: 2rem;*/
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+.divH1Artikel {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    /*margin-bottom: 2rem;*/
+    /*border-bottom: 1px solid black;*/
+}
+.divH1Artikel h1 {
+    color: #111e55;
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.divH1Artikel p {
+    color: #111e55;
+    font-size: 18px;
+}
+.divH1Artikel a {
+   color: black;
+  
+}
+.divH1Artikel a:focus,
+.divH1Artikel a:hover {
+    outline: 2px solid black;
+ }
+ .divH1Artikel ul {
+     list-style: none;
+     padding-left: 0px;
+ }
+ .divH1ArtikelIMG{
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+     padding-bottom: 2rem;
+     margin-bottom: 2rem;
+     border-bottom: 1px solid black;
+     
+ }
+ .divH1ArtikelIMG img{
+    width: 100%;
+    max-height: 400px;
+     object-fit: contain;
+    margin: 0 auto;
+    
+}
+.inleidingArtikel {
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.styleDivSharePost {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    /*padding-top: 2rem;*/
+    /*background-color: whitesmoke;*/
+}
+.divSharepost {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    /*border-bottom: 1px solid black;*/
+}
+.sharepost {
+    margin-left: auto;
+    margin-right: auto;
+}
+.sharepost h2 {
+    color: #111e55;
+
+}
+.sharepost li a {
+    float: left;
+    margin-right: 6px;
+    transition: opacity .3s ease-in-out;
+}
+.sharepost li a:hover {
+    outline: 2px solid black;
+}
+.sharepost li a img {
+    width: 50px;
+}
+.sharepost li {
+    list-style: none;
+}
+.sharepost ul {
+    padding-left: 0px;
+}
+.sharepostUL {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+
+ .inlineSpanIconSitemap {
+    margin: 0 auto;
+    display: inline;
+    width: 100%;
+    padding-right: 10px;
+    font-size: 25px;
+    color: blue;
+    vertical-align: middle;
+ }
+.formCssHomepage {
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 90%;
+    /*text-align: center;*/
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+
+}
+/*
+.formCss a{
+    text-decoration: none;
+    color: black;
+}
+*/
+.formInput {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    line-height: 1.6em;
+    /*font-size: 18px;*/
+    padding: 1rem 1rem;
+    /*margin-bottom: 1rem;*/
+    border: 1px solid black;
+}
+.formInput:focus,
+.formInput:hover {
+    outline: 1px solid  #111e55;
+}
+.formLabel {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    max-width: 100%;
+}
+.formSubmit {
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+    /*width: 20%;*/
+    font-size: 100%;
+    height: 20%;
+    /*border: .5rem solid white;*/
+    display: inline-block;
+    border-radius: 3rem;
+    text-decoration: none;
+    letter-spacing: .05rem;
+    font-family: inherit;
+    /* font-size: 100%; */
+    line-height: 1.15;
+    margin: 0;
+    background-color: #111e55;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.5s;
+    outline: 0 !important;
+}
+.formSubmit:focus,
+.formSubmit:hover{
+    border: 2px solid #FFF;
+    border-radius: 3rem;
+    box-shadow: 0 0 0 5px #111e55;
+}
+.formBlueSubmit {
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+    /*width: 20%;*/
+    font-size: 100%;
+    height: 20%;
+    /*border: .5rem solid white;*/
+    display: inline-block;
+    border-radius: 3rem;
+    text-decoration: none;
+    letter-spacing: .05rem;
+    font-family: inherit;
+    /* font-size: 100%; */
+    line-height: 1.15;
+    margin: 0;
+    background-color: #111e55;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.5s;
+    display: block;
+    outline: 0 !important;
+    
+}
+.formBlueSubmit:focus,
+.formBlueSubmit:hover{
+    border: 2px solid #FFF;
+    border-radius: 3rem;
+    box-shadow: 0 0 0 5px #111e55;
+}
+@media screen and (min-width: 468px) {
+    .styleFormDiv {
+        width: 100%;
+    }
+  
+}
+@media screen and (max-width: 468px) {
+    
+    .formCssArtikel {
+        width: 100%;
+    }
+    .formCss, .formCssHomepage {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .formInput{
+        width: 95%;
+    }
+    .error, .errorList {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .formCssArtikel {
+        width: 100%;
+    }
+    .divH1Artikel {
+        width: 90%;
+        word-break: break-word;
+    }
+    .styleFormDivArtikel {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rems;
+    }
+    .styleDivSharePost {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rems;
+    }
+    
+    .formCssArtikel {
+        width: 100%;
+        padding: 0%;
+    }
+    .formCss, .formCssHomepage {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .formInput{
+        width: 95%;
+    }
+    .error, .errorList {
+        width: 90%;
+    }
+    .divSharepost {
+        width: 90%;
+        /*padding-bottom: 1rem;*/
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    
+    .styleFormDiv, #melding {
+        width: 90%;
+    }
+    .formCss, .formCssHomepage {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .formInput{
+        width: 100%;
+    }
+    .error, .errorList {
+        width: 90%;
+    }
+    #errorContact {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #errorContact {
+        width: 90%;
+    }
+  }

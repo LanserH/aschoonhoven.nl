@@ -1,0 +1,206 @@
+.searchHighlight {
+    font-weight: bold;
+    color: white;
+    /*border: 3px solid white;*/
+    background-color: black;
+}
+.searchBarMenu {
+	float: right;
+    padding-right: 0px;
+    margin-left: auto;
+    display: block;
+}
+.searchBar {
+	padding: 0px;
+	display: flex;
+}
+.searchInput {
+	font-size: 1.26562rem;
+    line-height: 1.58025;
+    width: 100%;
+    height: 48px;
+    margin: 0;
+    padding: 0 5rem 0 1rem;
+    /*border: none;*/
+    /*position: absolute;
+    z-index: 10;
+    top: 0;*/
+    right: 48px;
+    width: calc(100% - 48px);
+    border: 1px solid black;
+}
+
+.searchInput:active,
+.searchInput:focus,
+.searchInput:hover {
+	/*
+	outline: none !important;
+    border:5px solid #00CA00;
+    box-shadow: 0.2rem solid #00CA00;
+	*/
+	
+	
+    border-color: #00CA00;
+    outline: 2px solid #00CA00;
+	
+}
+.searchInput::placeholder{
+	color: black;
+}
+
+
+#search-button {
+    width: 48px;
+    height: 48px;
+    min-height: 48px;
+    text-indent: -99999px;
+    background: url('../img/icons/iconfinder-icon.svg') white;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    background-color: black;
+
+}
+	  
+#search-button:focus,
+#search-button:hover {
+	
+    border-color: #00CA00;
+    outline: 1px solid #00CA00;
+}
+.searchResults {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 2rem;
+}
+.rowSearchHeight {
+    /*display: table;*/
+    /*overflow: hidden;*/
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.rowSearch {
+    margin: 2rem;
+    height: 200px;
+    display: block;
+    border: 0.1px solid black;
+    overflow: hidden;
+    max-height: 11.6em;
+    line-height: 1.8em;
+}
+.rowSearch:focus-within {
+    outline: 3px solid #111e55;
+}
+.rowSearch a{
+    text-decoration: none;
+    color: black;
+}
+.rowSearch a:focus{
+   outline: none;
+}
+.rowSearch a:focus-visible{
+    outline: 3px solid #111e55;
+    box-shadow: #111e55;
+}
+.rowSearch:hover {
+    outline: 3px solid #111e55;
+    box-shadow: #111e55;
+}
+.columnSearch1 {
+    display: table-cell;
+    /*float: left;*/
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    /*height: auto; /* Should be removed. Only for demonstration */
+    vertical-align: top;
+}
+.bottemColumnSearch1 {
+    position: sticky;
+    z-index: 1;
+    margin: 0 auto;
+    background-color: white;
+    bottom: 0px;
+    border: top;
+    /*border-top: 1px solid black;*/
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bottemColumnSearch1 p {
+    bottom: 0px;
+    position: sticky;
+}
+.columnSearch2 {
+    display: table-cell;
+    /*float: left;*/
+    width: 30%;
+    /*padding: 10px;*/
+    margin: 0 auto;
+    /*height: auto; /* Should be removed. Only for demonstration */
+}
+.columnSearch2Image {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.columnSearch2Image img {
+    width: 100%;
+    height: auto;
+}
+  
+  /* Clear floats after the columns */
+.rowSearch:after {
+content: "";
+display: table;
+clear: both;
+}
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .columnSearch1, .columnSearch2 {
+        width: 100%;
+        display: block;
+    }
+    .columnSearch1 {
+        height: 300px;
+        display: block;
+        overflow: hidden;
+        max-height: 17.6em;
+        line-height: 1.8em;
+        padding-bottom: 0px;
+        vertical-align: top;
+    }
+    .searchResults {
+        width: 95%
+    }
+    .rowSearch {
+        margin: 2rem;
+        /*height: 300px;*/
+        /*margin: 0 auto;*/
+        display: table;
+        border: 0.1px solid black;
+        overflow: hidden;
+    }
+    .bottemColumnSearch1 {
+        bottom: 0px;
+        border-bottom: 1px solid black;
+
+    }
+    .searchInput {
+        padding: 0px;
+        padding-left: 5px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+	.searchBarMenu {
+		width: 100%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+
+	}
+
+}

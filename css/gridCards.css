@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.gridCardH2 {
+  color: #000;
+  margin: 2rem 0 .5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.gridCard h3{
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 800;
+  /* margin: 1rem 0 3rem 0; */
+  /* float: left; */
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 12px;
+}
+
+.cardImg {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/***************************           Cards            *******************************/
+
+.gridCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); /* see notes below */
+  grid-auto-rows: minmax(22rem, auto);
+  grid-gap: 1rem;
+}
+
+.gridCard {
+  /*height: 200px;*/
+  /*background: red;*/
+  border: 1px solid black;
+  border-radius: 4px;
+  /*padding-top: 1rem;*/
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+} /* li item */
+.gridCards:hover,
+.gridCards a:focus {
+    outline: 1px solid #FFF;
+    /*border-radius: 3rem;*/
+    box-shadow: 0 0 0 5px #111e55;
+}
+.thumbnail {
+    width: 100%;
+    /* display: block; */
+    height: 170px;
+    display: block;
+    transform: scale(1);
+    overflow: hidden;
+    bottom: 0px;
+}
+.thumbnail img {
+  fill: #c7c4c4;
+  /*width: 100%;*/
+  height: 200px;
+  bottom: 0px;
+  object-fit: cover;
+  /*opacity: .25;*/
+  /*padding: 1.5rem;*/
+}
+
+.card-content {
+    font-size: .75rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 3px;
+}
+.card-content h2 {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 800;
+  /* margin: 1rem 0 3rem 0; */
+  /* float: left; */
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 12px;
+}
+
+.panel.card-panel .panel-header {
+    background-color: #ffffff;
+    font-size: .75rem;
+    font-weight: 400;
+    height: 25px !important;
+}
+
+.panel.card-panel .panel-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.category {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+.cardFooter {
+  /*border-top: 2px solid #e7e7e7;*/
+  margin: 0 auto;
+  min-height: 30px;
+  font-size: .5rem;
+}
+
+.category {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    color: #fff;
+    background: #e74c3c;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.category__01 {
+  background-color: #50c6db;
+}
+
+.category__02 {
+  background-color: #5d5e5e;
+}
+
+.category__03 {
+  background-color: #51bb7b;
+}
+
+.category__04 {
+  background-color: #f47820;
+}
+
+.category__05 {
+  background-color: #8350a0;
+}
+
+.post-meta {
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 15px;
+}
+
+.comments {
+  margin-left: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .gridCards {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); 
+    padding: 0;
+    grid-auto-rows: minmax(22rem, auto);
+    grid-gap: 1rem;
+  }
+  /*
+  .imglist {
+      max-width: 100%;
+  }
+  .imglist > ul {
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  padding: 0;
+  }
+  */
+}
+@media screen and (max-width: 468px) {
+  .gridCards {
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); 
+    padding: 0;
+    grid-auto-rows: minmax(22rem, auto);
+    grid-gap: 1rem;
+  }
+  /*
+  .imglist {
+      max-width: 100%;
+  }
+  .imglist > ul {
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  padding: 0;
+  }
+  */
+}

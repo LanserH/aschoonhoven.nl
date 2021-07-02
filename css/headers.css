@@ -1,0 +1,139 @@
+.opmaakDivH1 {
+  width: 100%;
+  /*background-color: #D9EBF7;*/
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  
+  /*margin-bottom: 2rem;*/
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  /*margin-top: 2rem;*/
+  margin-bottom: 1rem;
+  
+}
+.visually-hidden {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
+.divH1Homepage {
+  margin: 0 auto;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+  width: 75%;
+  /*text-align: center;*/
+  display: block;
+  /*color: black;*/
+  border-radius: 10px;
+ 
+}
+
+.divH2Homepage {
+  margin: 0 auto;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+  /*text-align: center;*/
+  display: block;
+  color: black;
+  border-radius: 10px;
+  /*padding-bottom: 2rem;*/
+  padding-top: 2rem;
+  background-color: white;
+}
+.divH2Homepage h2 {
+  margin: 0 auto;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+  width: 75%;
+  /*text-align: center;*/
+  display: block;
+  color: black;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: white;
+  font-size: calc(1.75rem + .81081vw - 2.59459px);
+  font-weight: 800;
+}
+
+.divH1 {
+  margin: 0 auto;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+  width: 75%;
+  /*text-align: center;*/
+  display: block;
+  /*background-color: whitesmoke;*/
+  color: black;
+  border-radius: 10px;
+}
+
+.divH2 {
+  margin: 0 auto;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+  width: 90%;
+  /*text-align: center;*/
+  display: block;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+
+@media screen and (max-width: 1151px) {
+  .divH1 {
+      width: 100%;
+      /*padding-left: 10%;*/
+    /*padding-right: 10px;*/
+  }
+  .divH2 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divH1 {
+    width: 100%;
+    /*padding-left: 10%;*/
+    /*padding-right: 10px;*/
+  }
+  .divH2 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .opmaakDivH1 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .divH2Homepage h2 {
+    margin: 0 auto;
+    /*padding-left: 10%;*/
+    /*padding-right: 10%;*/
+    width: 95%;
+    /*text-align: center;*/
+    display: block;
+    color: black;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: white;
+    font-size: calc(1.75rem + .81081vw - 2.59459px);
+    font-weight: 800;
+  }
+}
