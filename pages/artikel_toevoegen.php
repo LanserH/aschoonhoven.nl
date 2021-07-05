@@ -39,7 +39,6 @@
                     $melding .= "<li><a href=\"#editor\">U kunt uw boodschap niet leeg versturen.</a></li>\n";
                     $errorCount++;
                 }
-                
             }            
             if($errorCount == 0) {                
                 $sql = "INSERT INTO artikelen (titel, inleiding, tekstArtikel) values (?,?,?)";
@@ -153,7 +152,7 @@
                 <label class="formLabel" for="inleiding">Inleiding op het artikel (indien van toepassing)</label>
                 <textarea class="textAreaInput" name="inleidingName" id="inleiding"><?php echo $inleiding;?></textarea>
                 <?php
-                    include_once('ckeditor5/editor1.php');
+                    include_once('/tinymce/editor1.php');
                 ?>
                 
                 <input class="formBlueSubmit" type="submit" id="submit" name="submit" value="Voeg afbeelding(en) toe">

@@ -14,5 +14,4 @@ catch(PDOException $e) {
     echo "<br />Verbinding NIET gemaakt";
     die;
 }
-///////
 ?>

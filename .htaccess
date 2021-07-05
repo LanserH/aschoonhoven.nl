@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^css/(.*)$ css/$1 [L,NC]
+RewriteRule ^img/(.*)$ img/$1 [L,NC]
+RewriteRule ^js/(.*)$ js/$1 [L,NC]
+RewriteRule ^googleIcon/(.*)$ googleIcon/$1 [L,NC]
+RewriteRule ^(.*)/(.*)/(.*)/?$ index.php?page=$1&id=$2&titel=$3 [NC,L]
+RewriteRule ^(.*)/(.*)/?$ index.php?page=$1&id=$2 [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [NC,L]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
