@@ -183,3 +183,6 @@
   <script src="/js/fancyBoxJS3.js"></script>
   <script src="/js/fancyBoxJS2.js"></script>
   <script src="/js/fancyBoxJS1.js"></script>
+  <script src="/js/tinymce.js"></script>
+  <script src="/js/tinymce.min.js"></script>
+  <script src="/js/init-tinymce.js"></script>

@@ -152,9 +152,8 @@
                 <label class="formLabel" for="inleiding">Inleiding op het artikel (indien van toepassing)</label>
                 <textarea class="textAreaInput" name="inleidingName" id="inleiding"><?php echo $inleiding;?></textarea>
                 <?php
-                    include_once('/tinymce/editor1.php');
+                    include_once('tinymce/editorTMCE1.php');
                 ?>
-                
                 <input class="formBlueSubmit" type="submit" id="submit" name="submit" value="Voeg afbeelding(en) toe">
                 <input class="formBlueSubmit" type="submit" id="saveMess" name="saveMess" value="Sla artikel op zonder afbeelding">
                 </form>
