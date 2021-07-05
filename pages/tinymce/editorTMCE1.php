@@ -15,4 +15,5 @@
   <script type="text/javascript" src="js/tinymce/tinymce.js"></script>
   <script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
   <script type="text/javascript" src="init-tinymce.js"></script>
+  <script></script>
   </html>
